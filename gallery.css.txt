@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+}
+
+/* Шапка сайта*/
+.header {
+    height: 102px;
+    ;
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-top: 30px;
+}
+
+.logotype {
+    display: flex;
+    width: 30%;
+
+}
+
+.header__logo {
+    display: block;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15%;
+
+}
+
+
+.nav_items {
+    color: #333;
+    font-size: 12px;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+}
+
+.nav__lines {
+    height: 30px;
+    width: 80px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+.nav_items:hover {
+    opacity: 50%;
+}
+
+/* Шапка сайта (конец кода)*/
+
+
+.slider-block {
+    display: flex;
+    height: 100%;
+
+    margin-bottom: 120px;
+
+}
+
+.slider-block__left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.slider-block__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 70%;
+
+
+    background-image: url(../images/index/header_photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+/* Стиль общих заголовков*/
+.main-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading--slider {
+    padding-top: 336px;
+    margin-bottom: 90px;
+}
+
+.main-heading__top {
+    color: #BDBDBD;
+    font-size: calc((100vw - 320px)/(1920 - 320) * (64 - 16) + 16px);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.main-heading__bottom {
+    color: #333;
+    font-size: calc((100vw - 320px)/(1920 - 320) * (64 - 16) + 16px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+/* Стиль общих заголовков (конец кода)*/
+
+
+.slider-buttons {
+    margin-bottom: 94px;
+}
+
+
+/* Стиль общих кнопок со стрелками */
+.button-left {
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+    padding: 22.5px;
+    margin-right: 22.94px;
+    cursor: pointer;
+}
+
+.button-right {
+    border: 1px solid #F2F2F2;
+    background: #F9F9F9;
+    padding: 22.5px;
+    cursor: pointer;
+}
+
+.button-left:hover,
+.button-right:hover {
+    background: #d3d3d3;
+}
+
+/* Стиль общих кнопок со стрелками (конец кода)*/
+
+
+/* Стиль общих номеров страниц*/
+.page-numbers {
+    display: flex;
+    margin-bottom: 83px;
+}
+
+.first-page {
+    color: #BDBDBD;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 24px;
+
+    width: 0;
+    word-break: break-all;
+
+    margin-right: 32px;
+}
+
+.slash {
+    margin-right: 32px;
+}
+
+.last-page {
+    color: #BDBDBD;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 24px;
+    /* 100% */
+}
+
+/* Стиль общих номеров страниц (конец кода)*/
+
+
+/* Стиль общих больших кнопок*/
+.button-main {
+    width: 222px;
+    height: 71px;
+
+    border: none;
+    padding: 30px 50px 30px 20px;
+
+    color: #333;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Модификатор для белого типа кнопки*/
+.button-main--white {
+    background: #FFF;
+}
+
+.button-main--black {
+    background: #333;
+    color: #FFF;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 100% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.button-main:hover {
+    background: #d3d3d3;
+}
+
+/* Стиль общих больших кнопок (конец кода*/
+
+.about-block {
+    background-color: #FBFBFB;
+    margin-bottom: 150px;
+}
+
+.about-table {
+    display: grid;
+    grid-template-columns: 270px 270px 400px;
+    grid-template-rows: 412px;
+    gap: 30px;
+    justify-content: end;
+    padding-top: 30px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+}
+
+.heading-light {
+    color: #BDBDBD;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+}
+
+.about-text__p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.about_pic_1 {
+    width: 100%;
+}
+
+.about_pic_2 {
+    position: relative;
+    top: 30px;
+}
+
+.mission {
+    margin-bottom: 120px;
+}
+
+.mission-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission-col1,
+.mission-col2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mission-text1 {
+
+    width: 279px;
+}
+
+.mission-text2 {
+
+    width: 420px;
+}
+
+
+.numbers {
+    color: #F2F2F2;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.mission-text {
+    color: #333;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.our_projects-row1 {
+    display: flex;
+
+    gap: 30px;
+}
+
+.our_projects-row2 {
+    display: flex;
+
+    gap: 30px;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.our_projects-table {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+    padding: 0;
+}
+
+.our_projects-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}

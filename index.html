@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css">
+    <link rel="stylesheet icon" type="image/png" href="assets/icons/fvc.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Шапка сайта -->
+    <header class="header header--mobile">
+        <div class="container"><!-- Контейнер, который ограничивает содержимое сайта по ширине и по центру -->
+            <div class="header-line"><!-- Меню для широкого экрана -->
+                <div class="logotype">
+                    <img class="header__logo" alt="Logo" src="assets/images/index/logotype_black.svg">
+                </div>
+                <nav class="nav">
+
+                    <div class="nav__lines"><a class="nav_items" href="index.html">&nbsp;Main&nbsp;</a></div>
+                    <a class="nav_items" href="gallery.html">Gallery</a>
+                    <a class="nav_items" href="projects.html">Projects</a>
+                    <a class="nav_items" href="certifications.html">Certifications</a>
+                    <a class="nav_items" href="contacts.html">Contacts</a>
+                </nav>
+            </div><!-- Меню для широкого экрана (конец кода) -->
+            <div class="header-line--mobile"><!-- Меню для МОБИЛКИ  -->
+                <div class="logotype--mobile">
+                    <img class="header__logo--mobile" alt="Logo-mobile" src="assets/images/index/logotype_mobile.svg">
+                </div>
+                <div class="logotype-text">
+                    <img class="header__logo--mobile" alt="Logo-mobile"
+                        src="assets/images/index/logotype_mobiletxt.png">
+                </div>
+                <div class="burger_mobile">
+                    <img class="header__logo--mobile" alt="Burger-menu" src="assets/images/index/burger-menu.svg">
+                </div>
+            </div><!-- Меню для МОБИЛКИ (конец кода) -->
+        </div>
+    </header>
+    <!-- Шапка сайта (конец кода) -->
+
+
+    <div class="container">
+
+        <div class="slider-block"><!-- Блок слайдер (кнопки, заголовки, номера страниц) -->
+            <div class="slider-block__left">
+                <!-- Общие заголовки -->
+                <div class="main-heading main-heading--slider">
+                    <span class="main-heading__top">Project</span>
+                    <span class="main-heading__bottom">Lorum</span>
+                </div>
+                <!-- Общие заголовки (конец кода) -->
+                <div class="slider-buttons">
+                    <!-- Общие кнопки со стрелками -->
+                    <button class="button-left">
+                        <img class="button-left__icon" alt="Left Button"
+                            src="assets/images/index/button-left__icon.svg">
+                    </button>
+                    <button class="button-right">
+                        <img class="button-right__icon" alt="Right Button"
+                            src="assets/images/index/button-right__icon.svg">
+                    </button>
+                    <!-- Общие кнопки со стрелками (конец кода) -->
+                </div>
+                <!-- Общие номера страниц -->
+                <div class="page-numbers">
+                    <div class="first-page">01
+                    </div>
+                    <div class="slash">
+                        <img class="slash-icon" src="assets/images/index/slash-icon.svg">
+                    </div>
+                    <div class="last-page">02
+                    </div>
+                </div>
+                <!-- Общие номера страниц (конец кода) -->
+            </div>
+            <div class="slider-block__right">
+                <!-- Общая кнопка: белая -->
+                <button class="button-main button-main--white">
+                    View Project
+                    <img alt="Right Button Icon" src="assets/images/index/button-right__icon.svg"> </button>
+                <!-- Общая кнопка: белая (конец кода)-->
+            </div>
+        </div><!-- Блок слайдер (кнопки, заголовки, номера страниц) (конец кода) -->
+
+        <div class="slider-block--mobile"><!-- Блок слайдер (с кнопочками) для МОБИЛКИ -->
+            <div class="page-numbers">
+                <div class="first-page">01
+                </div>
+                <div class="slash">
+                    <img class="slash-icon" src="assets/images/index/slash-icon-mobile.svg">
+                </div>
+                <div class="last-page">02
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="button-left">
+                    <img class="button-left__icon" src="assets/images/index/button-left__icon.svg">
+                </button>
+                <a class="mob_a" href="project1.html">
+                    <div class="main-heading main-heading--slider">
+                        <span class="main-heading__top">Project</span>
+                        <span class="main-heading__bottom">Lorum</span>
+                    </div>
+                </a>
+                <button class="button-right">
+                    <img class="button-right__icon" src="assets/images/index/button-right__icon.svg">
+                </button>
+            </div>
+
+
+
+        </div><!-- Блок слайдер (с кнопочками) для МОБИЛКИ (конец кода) -->
+    </div>
+
+    <div class="about-block--mobile">
+        <div class="about-mobile-photo">
+            <img class="about-mobile-pic" alt="About Company" src="assets/images/index/about_mobile.jpg">
+        </div>
+        <div class="about-block-bg">
+            <div class="container">
+                <div class="heading-text-mobile">
+                    <span class="heading-light">
+                        About
+                    </span>
+                    <p class="about-text__p">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                    <div class="about-mobile-button">
+                        <button class="button-main button-main--white">
+                            Read More
+                            <img src="assets/images/index/button-right__icon.svg"> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="about-block">
+            <div class="about-table">
+                <div class="about-pictures">
+                    <img class="about_pic_1" alt="Buildings" src="assets/images/index/about_pic_1.jpg">
+                    <img class="about_pic_2" alt="Buildings" src="assets/images/index/about_pic_2.jpg">
+                </div>
+
+                <img class="about_pic_3" alt="Buildings" src="assets/images/index/about_pic_3.jpg">
+
+                <div class="about-text">
+                    <span class="heading-light">
+                        About
+                    </span>
+                    <p class="about-text__p">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                    <button class="button-main button-main--white">
+                        Read More
+                        <img src="assets/images/index/button-right__icon.svg"> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="mission-block">
+            <span class="heading-light">Main Focus/Mission Statement</span>
+            <div class="mission-table">
+                <div class="mission-col1">
+                    <span class="numbers">1</span>
+                    <p class="mission-text mission-text1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis
+                        placerat.
+                    </p>
+                </div>
+                <div class="mission-col2">
+                    <span class="numbers">2</span>
+                    <p class="mission-text mission-text2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis
+                        placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our_projects-block-mobile">
+        <span class="heading-light">
+            Our Projects
+        </span>
+        <div class="our_projects-table">
+            <div class="img-cover1">
+                <span class="main-heading__bottom our_projects-heading">Sample<br>
+                    Project</span>
+                <a class="our_projects-a" href="project1.html">View More
+                    <img src="assets/images/index/button-right-white__icon.svg">
+                </a>
+            </div>
+            <div>
+                <img class="img-cover" src="assets/images/index/our_projects_pic2.jpg">
+            </div>
+            <div>
+                <img class="img-cover" src="assets/images/index/our_projects_pic3.jpg">
+            </div>
+            <div>
+                <img class="img-cover" src="assets/images/index/our_projects_pic4.jpg">
+            </div>
+            <div>
+                <img class="img-cover" src="assets/images/index/our_projects_pic5.jpg">
+            </div>
+        </div>
+        <div class="container">
+            <div class="our_projects-button">
+                <button class="button-main button-main--black" onclick="document.location='projects.html'">All Projects
+                    <img src="assets/images/index/button-right-white__icon.svg"> </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="our_projects-block">
+            <span class="heading-light">
+                Our Projects
+            </span>
+            <div class="our_projects-table">
+                <div class="our_projects-row1">
+                    <div class="img-cover1">
+                        <span class="main-heading__bottom our_projects-heading">Sample<br>
+                            Project</span>
+                        <a class="our_projects-a" href="project1.html">View More
+                            <img src="assets/images/index/button-right-white__icon.svg">
+                        </a>
+                    </div>
+                    <div>
+                        <img class="img-cover" src="assets/images/index/our_projects_pic2.jpg">
+                    </div>
+                </div>
+                <div class="our_projects-row2">
+                    <div>
+                        <img class="img-cover" src="assets/images/index/our_projects_pic3.jpg">
+                    </div>
+                    <div>
+                        <img class="img-cover" src="assets/images/index/our_projects_pic4.jpg">
+                    </div>
+                    <div>
+                        <img class="img-cover" src="assets/images/index/our_projects_pic5.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="our_projects-button">
+                <button class="button-main button-main--black" onclick="document.location='projects.html'">All Projects
+                    <img src="assets/images/index/button-right-white__icon.svg"> </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts-block-mobile">
+        <span class="heading-light">
+            Contact Us
+        </span>
+        <img class="contacts-img-mobile" src="assets/images/index/contacts_pic.jpg">
+        <div class="contacts-container">
+            <aside class="input-forms">
+                <form class="contacts" name="contacts">
+                    <div class="input-blocks">
+                        <input class="input-contacts" type="text" placeholder="Name" tabindex="1">
+                    </div>
+                    <div class="input-blocks">
+                        <input class="input-contacts" type="tel" placeholder="Phone Number*" tabindex="1">
+                    </div>
+                    <div class="input-blocks">
+                        <input class="input-contacts" type="email" placeholder="E-mail*">
+                    </div>
+                    <div class="input-blocks">
+                        <input class="input-contacts" type="text" placeholder="Interested In">
+                    </div>
+                    <div class="input-blocks">
+                        <textarea class="input-contacts" rows="6" placeholder="Message*"></textarea>
+                    </div>
+                </form>
+            </aside>
+        </div>
+        <div class="contacts-button">
+            <button class="button-main button-main--black">Send E-mail
+                <img src="assets/images/index/button-right-white__icon.svg"> </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contacts-block">
+            <span class="heading-light">
+                Contact Us
+            </span>
+            <div class="contacts-block-container">
+                <aside class="input-forms">
+                    <form class="contacts" name="contacts">
+                        <div class="input-blocks">
+                            <input class="input-contacts" type="text" placeholder="Name" tabindex="1">
+                        </div>
+                        <div class="input-blocks">
+                            <input class="input-contacts" type="tel" placeholder="Phone Number*" tabindex="1">
+                        </div>
+                        <div class="input-blocks">
+                            <input class="input-contacts" type="email" placeholder="E-mail*">
+                        </div>
+                        <div class="input-blocks">
+                            <input class="input-contacts" type="text" placeholder="Interested In">
+                        </div>
+                        <div class="input-blocks">
+                            <textarea class="input-contacts" rows="6" placeholder="Message*"></textarea>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+            <div class="contacts-button">
+                <button class="button-main button-main--black">Send E-mail
+                    <img src="assets/images/index/button-right-white__icon.svg"> </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Подвал -->
+
+    <footer class="foo">
+        <div class="foo__top">
+            <div class="container">
+                <div class="foo__top-inner">
+                    <div class="foo__top-col">
+                        <a class="foo__logo " href="#"></a>
+                        <img src="assets/icons/Footer/logo.png" alt="logo">
+                    </div>
+
+                    <div class="foo__top-col">
+                        <h3 class="foo__top-tittle">Information</h3>
+
+                        <div class="foo__top-item">
+                            <a class="foo__top-link" href="index.html">Main</a>
+                        </div>
+                        <div class="foo__top-item">
+                            <a class="foo__top-link" href="gallery.html">Gallery</a>
+                                                   
+                        </div>
+                        <div class="foo__top-item">
+                            <a class="foo__top-link" href="projects.html">Projects</a>
+                        </div>
+                        <div class="foo__top-item">
+                            <a class="foo__top-link" href="certifications.html">Certifications</a>                      
+                             
+                        </div>
+                        <div class="foo__top-item">
+                            <a class="foo__top-link" href="contacts.html">Contacts</a>
+                        </div>
+
+                                           
+                    </div>
+                    <div class="foo__top-col">
+                        <h3 class="foo__top-tittle">Contacts</h3>
+                        <div class="foo__top-contact">
+                            <img class="foo__top-icon" src="assets/icons/Footer/contacs/Vector.svg" alt="adress">
+                            <a class="foo__top-link" href="#">1234 Sample Street <br>
+                                Austin Texas 78704</a>
+                        </div>
+                        <div class="foo__top-contact">
+                            <img class="foo__top-icon" src="assets/icons/Footer/contacs/Group.svg" alt="phone">
+                            <a class="foo__top-link" href="telto:5123332222">512.333.2222</a>
+                        </div>
+                        <div class="foo__top-contact">
+                            <img class="foo__top-icon" src="assets/icons/Footer/contacs/Group-mail.svg" alt="e-mail">
+                            <a class="foo__top-link" href="mailto:sampleemail@gmail.com">sampleemail@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <!-- мобильная верстка -->
+                    <div class="foo__top-col--mobile">
+                        <div class="foo__top-wrapper--mobile">
+                            <div>
+                                <div>
+                                    <h3 class="foo__top-tittle">Social Media</h3>
+                                </div>
+                                <div class="foo__wrapper--social">
+                                    <a class="foo__top-social" href="#">
+                                        <img src="assets/icons/Footer/social-media/facebook.svg" alt="facebook">
+                                    </a>
+                                    <a class="foo__top-social" href="#">
+                                        <img src="assets/icons/Footer/social-media/twitter.svg" alt="twitter">
+                                    </a>
+                                    <a class="foo__top-social" href="#">
+                                        <img src="assets/icons/Footer/social-media/LinkedIn.svg" alt="Linked In">
+                                    </a>
+                                    <a class="foo__top-social" href="#">
+                                        <img src="assets/icons/Footer/social-media/pininterest.svg" alt="pininterest">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="foo__logo--mobile">
+                                <a class="foo__logo " href="#"></a>
+                                <img class="foo__logo--pic" src="assets/icons/Footer/logo-mobile.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="foo__top--mobile">
+                            <h3 class="foo__top-tittle">Contacts</h3>
+                            <div class="foo_top-contact">
+                                <img class="foo_top-icon" src="assets/icons/Footer/contacs/Vector.svg" alt="adress">
+                                <a class="foo_top-link" href="#">1234 Sample Street <br>
+                                    Austin Texas 78704</a>
+                            </div>
+                            <div class="foo_top-contact"><img class="foo_top-icon"
+                                    src="assets/icons/Footer/contacs/Group.svg" alt="phone">
+                                <a class="foo_top-link" href="telto:5123332222">512.333.2222</a>
+                            </div>
+                            <div class="foo_top-contact">
+                                <img class="foo_top-icon" src="assets/icons/Footer/contacs/Group-mail.svg" alt="e-mail">
+                                <a class="foo_top-link" href="mailto:sampleemail@gmail.com">sampleemail@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- мобильная верстка(конец кода) -->
+            </div>
+        </div>
+        <div class="foo__botton">
+            <div class="container">
+                <div class="foo__botton-inner">
+                    <div class="foo__botton-copy">
+                        © 2019 All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
